@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Freier-MG</title>
+    <meta name="description" content="Das Geld ist deine Munition: Comedy-Shooter im Turniersaal des King's Casino." />
+    <!-- Privater Prototyp für die Freundesgruppe: nicht in Suchmaschinen -->
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="theme-color" content="#06060c" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%92%B8%3C/text%3E%3C/svg%3E" />
+    <script type="module" crossorigin src="./assets/index-CkE96dWh.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-Cp1e02cJ.css">
+      <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://malte222.github.io/freier-mg/" />
+    <meta property="og:title" content="Freier-MG" />
+    <meta property="og:description" content="Das Geld ist deine Munition: PKO-Turnier im King’s, jeder Schuss kostet. Schaffst du den Final Table?" />
+    <meta property="og:image" content="https://malte222.github.io/freier-mg/assets/loading/slide1.jpg" />
+    <meta property="og:locale" content="de_DE" />
+    <meta name="twitter:card" content="summary_large_image" />
+  </head>
+  <body class="booting">
+    <!-- Ladebildschirm im Stil von GTA: Figuren-Artworks, Status unten rechts, Tipps unten links -->
+    <div id="loading">
+      <div id="loading-slides">
+        <div class="slide" data-img="loading/slide1.jpg" data-name="DER FREIER" data-line="Jeder Schuss kostet zehn Euro."></div>
+        <div class="slide" data-img="loading/slide2.jpg" data-name="THE WHALE" data-line="Kauft einfach nach."></div>
+        <div class="slide" data-img="loading/slide3.jpg" data-name="DER STREAMER" data-line="Live aus dem King's."></div>
+        <div class="slide" data-img="loading/slide4.jpg" data-name="DIE FLOOR-MANAGER" data-line="Thank you for your donation!"></div>
+        <div class="slide" data-img="loading/slide5.jpg" data-name="DER NIT" data-line="Hatte Asse. Schon wieder."></div>
+        <div class="slide" data-img="loading/slide6.jpg" data-name="THE PRO" data-line="Wartet am Final Table."></div>
+      </div>
+      <div id="loading-shade"></div>
+      <div id="loading-caption"><b></b><span></span></div>
+      <div id="loading-logo">FREIER<span>-MG</span></div>
+      <div id="loading-tip"></div>
+      <div id="loading-status">
+        <span id="loading-text">Lade …</span>
+        <span class="spinner"></span>
+      </div>
+      <div id="loading-progress"><div id="loading-fill"></div></div>
+    </div>
+
+    <!-- Startmenü und Pause über der laufenden Szene -->
+    <div id="menu" class="hidden">
+      <div class="menu-side">
+        <div class="menu-kicker">King's Casino · Rozvadov · Freier Cup 2026</div>
+        <h1 class="menu-logo">FREIER<span>-MG</span></h1>
+        <p class="menu-tagline">Das Geld ist deine Munition. Jeder Treffer bringt Bounty, jeder Fehlschuss verbrennt Scheine.</p>
+        <div class="menu-facts">
+          <div><b id="fact-field"></b><span>Gegner</span></div>
+          <div><b id="fact-tables"></b><span>Tische</span></div>
+          <div><b id="fact-cost"></b><span>pro Schuss</span></div>
+          <div><b id="fact-money"></b><span>Startgeld</span></div>
+        </div>
+        <div class="menu-buttons">
+          <button id="menu-play" class="primary"><span>Turnier starten</span><kbd>Klick</kbd></button>
+          <button id="menu-restart" class="hidden"><span>Neues Turnier</span></button>
+          <button id="menu-controls-toggle"><span>Steuerung</span></button>
+          <button id="menu-scores-toggle"><span>Bestenliste</span></button>
+        </div>
+        <p id="menu-message"></p>
+      </div>
+      <div id="menu-controls" class="menu-card hidden">
+        <h2>Steuerung</h2>
+        <dl>
+          <dt>WASD</dt><dd>Laufen</dd>
+          <dt>Shift</dt><dd>Sprinten</dd>
+          <dt>Leertaste</dt><dd>Springen</dd>
+          <dt>Maus</dt><dd>Kamera schwenken</dd>
+          <dt>Linke Maustaste</dt><dd>Feuer</dd>
+          <dt>Rechte Maustaste</dt><dd>Zielen (Fadenkreuz)</dd>
+          <dt>E</dt><dd>Geldautomat, Vordrängeln</dd>
+          <dt>0–9</dt><dd>PIN eingeben</dd>
+          <dt>Q</dt><dd>Boost</dd>
+          <dt>R</dt><dd>Neustart</dd>
+          <dt>Esc</dt><dd>Pause</dd>
+        </dl>
+      </div>
+      <div id="menu-scores" class="menu-card hidden">
+        <h2>Bestenliste</h2>
+        <ol id="menu-scores-list"></ol>
+        <p class="menu-card-note">Gespeichert in diesem Browser</p>
+      </div>
+      <div class="menu-footer">Freier-MG · Prototyp · M7</div>
+    </div>
+
+    <div id="hud">
+      <div id="money-panel">
+        <div id="money">€ 1.000</div>
+        <div id="burn"></div>
+        <div id="gain"></div>
+        <div class="money-sub">Kosten pro Schuss: <span id="cost"></span></div>
+        <div class="money-sub">ATM: <span id="atm-limit"></span> übrig</div>
+      </div>
+      <div id="clock">
+        <div id="clock-level"></div>
+        <div id="clock-time"></div>
+        <div id="clock-info"></div>
+        <div id="notice"></div>
+      </div>
+      <div id="killfeed"></div>
+      <div id="crosshair"></div>
+      <div id="broke">PLEITE!<small id="broke-hint"></small></div>
+      <div id="prompt"></div>
+      <div id="banner"></div>
+      <div id="boost">
+        <div id="boost-label">BOOST</div>
+        <div id="boost-bar"><div id="boost-fill"></div></div>
+      </div>
+      <div id="subtitle"></div>
+      <div id="phone">
+        <div class="phone-bar">Freier Bank · jetzt</div>
+        <div class="phone-push">
+          <b>pushTAN</b>
+          Deine PIN für diese Abhebung:
+          <div id="phone-code"></div>
+        </div>
+        <div id="phone-status"></div>
+        <div class="phone-hint">Zifferntasten 0–9 · E Abbrechen</div>
+      </div>
+      <div id="controls">WASD Laufen · Maus Kamera · Shift Sprinten · Leertaste Springen · LMB Feuer · RMB Zielen · E Geldautomat · Q Boost · R Neustart · Esc Pause</div>
+      <div id="build">Freier-MG · M7</div>
+    </div>
+    <div id="boost-frame"></div>
+    <div id="endscreen">
+      <h1 id="end-title"></h1>
+      <p id="end-faktor"></p>
+      <p id="end-record"></p>
+      <table id="end-stats"></table>
+      <button id="end-share">Ergebnis kopieren</button>
+      <p class="start">Klick für ein neues Turnier</p>
+    </div>
+  </body>
+</html>

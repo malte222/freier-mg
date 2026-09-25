@@ -1,0 +1,720 @@
+{
+ "avatars": {
+  "BF01": {
+   "file": "BF01.glb",
+   "sex": "f",
+   "leg": 0.8265,
+   "height": 1.74
+  },
+  "BF02": {
+   "file": "BF02.glb",
+   "sex": "f",
+   "leg": 0.8265,
+   "height": 1.729
+  },
+  "BF04": {
+   "file": "BF04.glb",
+   "sex": "f",
+   "leg": 0.8265,
+   "height": 1.73
+  },
+  "BM01": {
+   "file": "BM01.glb",
+   "sex": "m",
+   "leg": 0.7957,
+   "height": 1.806
+  },
+  "BM02": {
+   "file": "BM02.glb",
+   "sex": "m",
+   "leg": 0.7957,
+   "height": 1.822
+  },
+  "BM03": {
+   "file": "BM03.glb",
+   "sex": "m",
+   "leg": 0.7957,
+   "height": 1.818
+  },
+  "BM04": {
+   "file": "BM04.glb",
+   "sex": "m",
+   "leg": 0.7957,
+   "height": 1.8
+  },
+  "BM05": {
+   "file": "BM05.glb",
+   "sex": "m",
+   "leg": 0.7957,
+   "height": 1.801
+  },
+  "BM06": {
+   "file": "BM06.glb",
+   "sex": "m",
+   "leg": 0.7957,
+   "height": 1.809
+  },
+  "FA01": {
+   "file": "FA01.glb",
+   "sex": "f",
+   "leg": 0.8265,
+   "height": 1.739
+  },
+  "FA02": {
+   "file": "FA02.glb",
+   "sex": "f",
+   "leg": 0.8265,
+   "height": 1.731
+  },
+  "FA03": {
+   "file": "FA03.glb",
+   "sex": "f",
+   "leg": 0.8265,
+   "height": 1.739
+  },
+  "FA05": {
+   "file": "FA05.glb",
+   "sex": "f",
+   "leg": 0.8265,
+   "height": 1.736
+  },
+  "FA08": {
+   "file": "FA08.glb",
+   "sex": "f",
+   "leg": 0.8265,
+   "height": 1.735
+  },
+  "FA09": {
+   "file": "FA09.glb",
+   "sex": "f",
+   "leg": 0.8265,
+   "height": 1.735
+  },
+  "FA13": {
+   "file": "FA13.glb",
+   "sex": "f",
+   "leg": 0.8265,
+   "height": 1.751
+  },
+  "FA14": {
+   "file": "FA14.glb",
+   "sex": "f",
+   "leg": 0.8265,
+   "height": 1.739
+  },
+  "FA15": {
+   "file": "FA15.glb",
+   "sex": "f",
+   "leg": 0.8265,
+   "height": 1.739
+  },
+  "FA17": {
+   "file": "FA17.glb",
+   "sex": "f",
+   "leg": 0.8265,
+   "height": 1.751
+  },
+  "MA02": {
+   "file": "MA02.glb",
+   "sex": "m",
+   "leg": 0.7957,
+   "height": 1.822
+  },
+  "MA03": {
+   "file": "MA03.glb",
+   "sex": "m",
+   "leg": 0.7957,
+   "height": 1.806
+  },
+  "MA04": {
+   "file": "MA04.glb",
+   "sex": "m",
+   "leg": 0.7957,
+   "height": 1.868
+  },
+  "MA05": {
+   "file": "MA05.glb",
+   "sex": "m",
+   "leg": 0.7957,
+   "height": 1.812
+  },
+  "MA06": {
+   "file": "MA06.glb",
+   "sex": "m",
+   "leg": 0.7957,
+   "height": 1.831
+  },
+  "MA07": {
+   "file": "MA07.glb",
+   "sex": "m",
+   "leg": 0.7957,
+   "height": 1.82
+  },
+  "MA09": {
+   "file": "MA09.glb",
+   "sex": "m",
+   "leg": 0.7957,
+   "height": 1.821
+  },
+  "MA10": {
+   "file": "MA10.glb",
+   "sex": "m",
+   "leg": 0.7957,
+   "height": 1.829
+  },
+  "MA11": {
+   "file": "MA11.glb",
+   "sex": "m",
+   "leg": 0.7957,
+   "height": 1.802
+  },
+  "MA12": {
+   "file": "MA12.glb",
+   "sex": "m",
+   "leg": 0.7957,
+   "height": 1.806
+  },
+  "MA13": {
+   "file": "MA13.glb",
+   "sex": "m",
+   "leg": 0.7957,
+   "height": 1.805
+  },
+  "MA14": {
+   "file": "MA14.glb",
+   "sex": "m",
+   "leg": 0.7957,
+   "height": 1.795
+  },
+  "MA16": {
+   "file": "MA16.glb",
+   "sex": "m",
+   "leg": 0.7957,
+   "height": 1.809
+  },
+  "MA17": {
+   "file": "MA17.glb",
+   "sex": "m",
+   "leg": 0.7957,
+   "height": 1.812
+  },
+  "MA18": {
+   "file": "MA18.glb",
+   "sex": "m",
+   "leg": 0.7957,
+   "height": 1.813
+  },
+  "MA20": {
+   "file": "MA20.glb",
+   "sex": "m",
+   "leg": 0.7957,
+   "height": 1.805
+  },
+  "SEC": {
+   "file": "SEC.glb",
+   "sex": "m",
+   "leg": 0.7957,
+   "height": 1.831
+  },
+  "SM04": {
+   "file": "SM04.glb",
+   "sex": "m",
+   "leg": 0.7957,
+   "height": 1.807
+  },
+  "player": {
+   "file": "player.glb",
+   "sex": "m",
+   "leg": 0.7957,
+   "height": 1.823
+  },
+  "tourist_hawaii": {
+   "file": "tourist_hawaii.glb",
+   "sex": "m",
+   "leg": 0.7957,
+   "height": 1.823
+  }
+ },
+ "clips": {
+  "m": {
+   "file": "anims_m.glb",
+   "list": {
+    "walkslow": {
+     "speed": 0.821,
+     "leg": 0.7957,
+     "phase": 0.2045
+    },
+    "walk": {
+     "speed": 1.0117,
+     "leg": 0.7957,
+     "phase": 0.6389
+    },
+    "walkfast": {
+     "speed": 1.4954,
+     "leg": 0.7957,
+     "phase": 0.6875
+    },
+    "jog": {
+     "speed": 2.4106,
+     "leg": 0.7957,
+     "phase": 0.7391
+    },
+    "run": {
+     "speed": 2.8797,
+     "leg": 0.7957,
+     "phase": 0.7273
+    },
+    "sprint": {
+     "speed": 5.8395,
+     "leg": 0.7957,
+     "phase": 0.7222
+    },
+    "idle1": {
+     "speed": 0.0,
+     "leg": 0.7957,
+     "phase": 0.0
+    },
+    "idle2": {
+     "speed": 0.0,
+     "leg": 0.7957,
+     "phase": 0.0
+    },
+    "idle3": {
+     "speed": 0.0,
+     "leg": 0.7957,
+     "phase": 0.0
+    },
+    "idle4": {
+     "speed": 0.0,
+     "leg": 0.7957,
+     "phase": 0.0
+    },
+    "look": {
+     "speed": 0.0,
+     "leg": 0.7957,
+     "phase": 0.0
+    },
+    "wait1": {
+     "speed": 0.0,
+     "leg": 0.7957,
+     "phase": 0.0
+    },
+    "wait2": {
+     "speed": 0.0,
+     "leg": 0.7957,
+     "phase": 0.0
+    },
+    "nervous": {
+     "speed": 0.0,
+     "leg": 0.7957,
+     "phase": 0.0
+    },
+    "angry": {
+     "speed": 0.0,
+     "leg": 0.7957,
+     "phase": 0.0
+    },
+    "scratch": {
+     "speed": 0.0,
+     "leg": 0.7957,
+     "phase": 0.0
+    },
+    "sit1": {
+     "speed": 0.0,
+     "leg": 0.7957,
+     "phase": 0.0
+    },
+    "sit2": {
+     "speed": 0.0,
+     "leg": 0.7957,
+     "phase": 0.0
+    },
+    "sit3": {
+     "speed": 0.0,
+     "leg": 0.7957,
+     "phase": 0.0
+    },
+    "sit4": {
+     "speed": 0.0,
+     "leg": 0.7957,
+     "phase": 0.0
+    },
+    "sit5": {
+     "speed": 0.0,
+     "leg": 0.7957,
+     "phase": 0.0
+    },
+    "sit6": {
+     "speed": 0.0,
+     "leg": 0.7957,
+     "phase": 0.0
+    },
+    "sitthink": {
+     "speed": 0.0,
+     "leg": 0.7957,
+     "phase": 0.0
+    },
+    "sitscratch": {
+     "speed": 0.0,
+     "leg": 0.7957,
+     "phase": 0.0
+    },
+    "sittouch": {
+     "speed": 0.0,
+     "leg": 0.7957,
+     "phase": 0.0
+    },
+    "sityawn": {
+     "speed": 0.0,
+     "leg": 0.7957,
+     "phase": 0.0
+    },
+    "sitshrug": {
+     "speed": 0.0,
+     "leg": 0.7957,
+     "phase": 0.0
+    },
+    "chair1": {
+     "speed": 0.0,
+     "leg": 0.7957,
+     "phase": 0.0
+    },
+    "chair2": {
+     "speed": 0.0,
+     "leg": 0.7957,
+     "phase": 0.0
+    },
+    "chair3": {
+     "speed": 0.0,
+     "leg": 0.7957,
+     "phase": 0.0
+    },
+    "cheer1": {
+     "speed": 0.0,
+     "leg": 0.7957,
+     "phase": 0.0
+    },
+    "cheer2": {
+     "speed": 0.0,
+     "leg": 0.7957,
+     "phase": 0.0
+    },
+    "cheer3": {
+     "speed": 0.0,
+     "leg": 0.7957,
+     "phase": 0.0
+    },
+    "clap": {
+     "speed": 0.0,
+     "leg": 0.7957,
+     "phase": 0.0
+    },
+    "laugh1": {
+     "speed": 0.0,
+     "leg": 0.7957,
+     "phase": 0.0
+    },
+    "laugh2": {
+     "speed": 0.0,
+     "leg": 0.7957,
+     "phase": 0.0
+    },
+    "talk1": {
+     "speed": 0.0,
+     "leg": 0.7957,
+     "phase": 0.0
+    },
+    "talk2": {
+     "speed": 0.0,
+     "leg": 0.7957,
+     "phase": 0.0
+    },
+    "talkangry": {
+     "speed": 0.0,
+     "leg": 0.7957,
+     "phase": 0.0
+    },
+    "listen": {
+     "speed": 0.0,
+     "leg": 0.7957,
+     "phase": 0.0
+    },
+    "shrug": {
+     "speed": 0.0,
+     "leg": 0.7957,
+     "phase": 0.0
+    },
+    "drink": {
+     "speed": 0.0,
+     "leg": 0.7957,
+     "phase": 0.0
+    },
+    "drinkidle": {
+     "speed": 0.0,
+     "leg": 0.7957,
+     "phase": 0.0
+    },
+    "wave": {
+     "speed": 0.0,
+     "leg": 0.7957,
+     "phase": 0.0
+    },
+    "photo": {
+     "speed": 0.0,
+     "leg": 0.7957,
+     "phase": 0.0
+    },
+    "phone": {
+     "speed": 0.0,
+     "leg": 0.7957,
+     "phase": 0.0
+    },
+    "crouch": {
+     "speed": 0.0,
+     "leg": 0.7957,
+     "phase": 0.0
+    }
+   }
+  },
+  "f": {
+   "file": "anims_f.glb",
+   "list": {
+    "walkslow": {
+     "speed": 0.8873,
+     "leg": 0.8265,
+     "phase": 0.2
+    },
+    "walk": {
+     "speed": 1.2138,
+     "leg": 0.8265,
+     "phase": 0.1944
+    },
+    "walkfast": {
+     "speed": 1.5305,
+     "leg": 0.8265,
+     "phase": 0.1613
+    },
+    "jog": {
+     "speed": 2.2694,
+     "leg": 0.8265,
+     "phase": 0.24
+    },
+    "run": {
+     "speed": 2.7653,
+     "leg": 0.8265,
+     "phase": 0.2174
+    },
+    "sprint": {
+     "speed": 5.3786,
+     "leg": 0.8265,
+     "phase": 0.1905
+    },
+    "idle1": {
+     "speed": 0.0,
+     "leg": 0.8265,
+     "phase": 0.0
+    },
+    "idle2": {
+     "speed": 0.0,
+     "leg": 0.8265,
+     "phase": 0.0
+    },
+    "idle3": {
+     "speed": 0.0,
+     "leg": 0.8265,
+     "phase": 0.0
+    },
+    "idle4": {
+     "speed": 0.0,
+     "leg": 0.8265,
+     "phase": 0.0
+    },
+    "look": {
+     "speed": 0.0,
+     "leg": 0.8265,
+     "phase": 0.0
+    },
+    "wait1": {
+     "speed": 0.0,
+     "leg": 0.8265,
+     "phase": 0.0
+    },
+    "wait2": {
+     "speed": 0.0,
+     "leg": 0.8265,
+     "phase": 0.0
+    },
+    "nervous": {
+     "speed": 0.0,
+     "leg": 0.8265,
+     "phase": 0.0
+    },
+    "angry": {
+     "speed": 0.0,
+     "leg": 0.8265,
+     "phase": 0.0
+    },
+    "scratch": {
+     "speed": 0.0,
+     "leg": 0.8265,
+     "phase": 0.0
+    },
+    "sit1": {
+     "speed": 0.0,
+     "leg": 0.8265,
+     "phase": 0.0
+    },
+    "sit2": {
+     "speed": 0.0,
+     "leg": 0.8265,
+     "phase": 0.0
+    },
+    "sit3": {
+     "speed": 0.0,
+     "leg": 0.8265,
+     "phase": 0.0
+    },
+    "sit4": {
+     "speed": 0.0,
+     "leg": 0.8265,
+     "phase": 0.0
+    },
+    "sit5": {
+     "speed": 0.0,
+     "leg": 0.8265,
+     "phase": 0.0
+    },
+    "sit6": {
+     "speed": 0.0,
+     "leg": 0.8265,
+     "phase": 0.0
+    },
+    "sitthink": {
+     "speed": 0.0,
+     "leg": 0.8265,
+     "phase": 0.0
+    },
+    "sitscratch": {
+     "speed": 0.0,
+     "leg": 0.8265,
+     "phase": 0.0
+    },
+    "sittouch": {
+     "speed": 0.0,
+     "leg": 0.8265,
+     "phase": 0.0
+    },
+    "sityawn": {
+     "speed": 0.0,
+     "leg": 0.8265,
+     "phase": 0.0
+    },
+    "sitshrug": {
+     "speed": 0.0,
+     "leg": 0.8265,
+     "phase": 0.0
+    },
+    "chair1": {
+     "speed": 0.0,
+     "leg": 0.8265,
+     "phase": 0.0
+    },
+    "chair2": {
+     "speed": 0.0,
+     "leg": 0.8265,
+     "phase": 0.0
+    },
+    "chair3": {
+     "speed": 0.0,
+     "leg": 0.8265,
+     "phase": 0.0
+    },
+    "cheer1": {
+     "speed": 0.0,
+     "leg": 0.8265,
+     "phase": 0.0
+    },
+    "cheer2": {
+     "speed": 0.0,
+     "leg": 0.8265,
+     "phase": 0.0
+    },
+    "cheer3": {
+     "speed": 0.0,
+     "leg": 0.8265,
+     "phase": 0.0
+    },
+    "clap": {
+     "speed": 0.0,
+     "leg": 0.8265,
+     "phase": 0.0
+    },
+    "laugh1": {
+     "speed": 0.0,
+     "leg": 0.8265,
+     "phase": 0.0
+    },
+    "laugh2": {
+     "speed": 0.0,
+     "leg": 0.8265,
+     "phase": 0.0
+    },
+    "talk1": {
+     "speed": 0.0,
+     "leg": 0.8265,
+     "phase": 0.0
+    },
+    "talk2": {
+     "speed": 0.0,
+     "leg": 0.8265,
+     "phase": 0.0
+    },
+    "talkangry": {
+     "speed": 0.0,
+     "leg": 0.8265,
+     "phase": 0.0
+    },
+    "listen": {
+     "speed": 0.0,
+     "leg": 0.8265,
+     "phase": 0.0
+    },
+    "shrug": {
+     "speed": 0.0,
+     "leg": 0.8265,
+     "phase": 0.0
+    },
+    "drink": {
+     "speed": 0.0,
+     "leg": 0.8265,
+     "phase": 0.0
+    },
+    "drinkidle": {
+     "speed": 0.0,
+     "leg": 0.8265,
+     "phase": 0.0
+    },
+    "wave": {
+     "speed": 0.0,
+     "leg": 0.8265,
+     "phase": 0.0
+    },
+    "photo": {
+     "speed": 0.0,
+     "leg": 0.8265,
+     "phase": 0.0
+    },
+    "phone": {
+     "speed": 0.0,
+     "leg": 0.8265,
+     "phase": 0.0
+    },
+    "crouch": {
+     "speed": 0.0,
+     "leg": 0.8265,
+     "phase": 0.0
+    }
+   }
+  }
+ }
+}
